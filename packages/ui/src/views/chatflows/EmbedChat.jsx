@@ -116,7 +116,7 @@ const chatwindowConfig = (isReact = false) => {
                     height: 700,
                     width: 400,
                     fontSize: 16,
-                    poweredByTextColor: "#303235",
+                    poweredByTextColor: "#fff",
                     botMessage: {
                         backgroundColor: "#f7f8ff",
                         textColor: "#303235",
@@ -142,9 +142,9 @@ const chatwindowConfig = (isReact = false) => {
                     },
                     footer: {
                         textColor: '#303235',
-                        text: 'Powered by',
-                        company: 'Flowise',
-                        companyLink: 'https://flowiseai.com',
+                        text: '',
+                        company: '',
+                        companyLink: '#',
                     }
                 }`
         : `chatWindow: {
@@ -157,7 +157,7 @@ const chatwindowConfig = (isReact = false) => {
                 height: 700,
                 width: 400,
                 fontSize: 16,
-                poweredByTextColor: "#303235",
+                poweredByTextColor: "#fff",
                 botMessage: {
                     backgroundColor: "#f7f8ff",
                     textColor: "#303235",
@@ -183,9 +183,9 @@ const chatwindowConfig = (isReact = false) => {
                 },
                 footer: {
                     textColor: '#303235',
-                    text: 'Powered by',
-                    company: 'Flowise',
-                    companyLink: 'https://flowiseai.com',
+                    text: '',
+                    company: '',
+                    companyLink: '#',
                 }
             }`
 }
